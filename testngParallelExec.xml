@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.WebShopDemo.TestCases.SearchResultPage_TC"/>
+      <class name="com.WebShopDemo.TestCases.LoginPage_TC"/>
+      <class name="com.WebShopDemo.TestCases.CreatePurchaseOrder_TC"/>
+      <class name="com.WebShopDemo.TestCases.HomePage_TC"/>
+      <class name="com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1"/>
+      <class name="com.WebShopDemo.TestCases.AccountCreation_TC"/>
+      <class name="com.WebShopDemo.TestCases.LandingPage_TC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

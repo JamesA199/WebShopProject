@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 19 08:57:30 MDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>315 seconds (315783 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.CreatePurchaseOrder_TC.CreatePurchaseOrder_Test()'><b>CreatePurchaseOrder_Test</b><br>Test class: com.WebShopDemo.TestCases.CreatePurchaseOrder_TC</td>
+<td></td>
+<td>69</td>
+<td>com.WebShopDemo.TestCases.CreatePurchaseOrder_TC@3ce1e309</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1.CreatePurchaseOrder_Test()'><b>CreatePurchaseOrder_Test</b><br>Test class: com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1<br>Parameters: godzilla@kaiju.com, Selenium1234, rock, 2, 2X, 11.00, 22.00, 10.00, Ground, Master card, 4485564059489345, 32.00</td>
+<td></td>
+<td>69</td>
+<td>com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1@158da8e</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1.CreatePurchaseOrder_Test()'><b>CreatePurchaseOrder_Test</b><br>Test class: com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1<br>Parameters: godzilla@kaiju.com, Selenium1234, rock, 3, 3X, 11.00, 33.00, 40.00, NextDayAir, Visa, 4485564059489345, 44.00</td>
+<td></td>
+<td>68</td>
+<td>com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1@158da8e</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.HomePage_TC.getWishListlabel()'><b>getWishListlabel</b><br>Test class: com.WebShopDemo.TestCases.HomePage_TC</td>
+<td></td>
+<td>3</td>
+<td>com.WebShopDemo.TestCases.HomePage_TC@6aba2b86</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.LoginPage_TC.loginTest()'><b>loginTest</b><br>Test class: com.WebShopDemo.TestCases.LoginPage_TC<br>Parameters: godzilla@kaiju.com, Selenium1234</td>
+<td></td>
+<td>22</td>
+<td>com.WebShopDemo.TestCases.LoginPage_TC@71809907</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.AccountCreation_TC.registerNewAccountTest()'><b>registerNewAccountTest</b><br>Test class: com.WebShopDemo.TestCases.AccountCreation_TC</td>
+<td></td>
+<td>27</td>
+<td>com.WebShopDemo.TestCases.AccountCreation_TC@74e52303</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.SearchResultPage_TC.searchForProduct()'><b>searchForProduct</b><br>Test class: com.WebShopDemo.TestCases.SearchResultPage_TC</td>
+<td></td>
+<td>1</td>
+<td>com.WebShopDemo.TestCases.SearchResultPage_TC@6e20b53a</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.LandingPage_TC.verifyWebShopLogo_Test()'><b>verifyWebShopLogo_Test</b><br>Test class: com.WebShopDemo.TestCases.LandingPage_TC</td>
+<td></td>
+<td>0</td>
+<td>com.WebShopDemo.TestCases.LandingPage_TC@47af7f3d</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.LandingPage_TC.verifyWebShopWebPageTitle_Test()'><b>verifyWebShopWebPageTitle_Test</b><br>Test class: com.WebShopDemo.TestCases.LandingPage_TC</td>
+<td></td>
+<td>0</td>
+<td>com.WebShopDemo.TestCases.LandingPage_TC@47af7f3d</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.HomePage_TC.wishListValidation_Test()'><b>wishListValidation_Test</b><br>Test class: com.WebShopDemo.TestCases.HomePage_TC</td>
+<td></td>
+<td>3</td>
+<td>com.WebShopDemo.TestCases.HomePage_TC@6aba2b86</td></tr>
+<tr>
+<td title='com.WebShopDemo.TestCases.HomePage_TC.wishListlabelvalidatecontent()'><b>wishListlabelvalidatecontent</b><br>Test class: com.WebShopDemo.TestCases.HomePage_TC</td>
+<td></td>
+<td>3</td>
+<td>com.WebShopDemo.TestCases.HomePage_TC@6aba2b86</td></tr>
+</table><p>
+</body>
+</html>
