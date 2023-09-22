@@ -7375,3 +7375,23 @@
 2023-09-21 22:28:36 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (c90307e2de15520a98cfca6bd31ef66c)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
 2023-09-21 22:28:36 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
 2023-09-21 22:28:42 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-21 23:18:55 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-21 23:18:55 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (2127e3944d0bb30e24540d26e09cd19e)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 23:18:55 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (2127e3944d0bb30e24540d26e09cd19e)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 23:18:55 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-21 23:19:01 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-21 23:29:39 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-21 23:29:39 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (21a45b21a5f0b290072f21fd87638e88)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 23:29:39 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (21a45b21a5f0b290072f21fd87638e88)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 23:29:39 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-21 23:29:46 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-21 23:33:19 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-21 23:33:19 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (828fb61ac06f5f0f772b1d84af7e9549)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 23:33:19 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (828fb61ac06f5f0f772b1d84af7e9549)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 23:33:19 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-21 23:33:26 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-22 00:15:56 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-22 00:15:56 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (21b1e03e886a9b91af8e55c279f81456)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-22 00:15:56 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (21b1e03e886a9b91af8e55c279f81456)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-22 00:15:56 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-22 00:16:03 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================

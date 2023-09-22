@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-21T22:28:32 MDT" name="Suite1" finished-at="2023-09-21T22:28:45 MDT" duration-ms="12976">
+  <suite started-at="2023-09-21T23:29:35 MDT" name="Suite1" finished-at="2023-09-21T23:29:49 MDT" duration-ms="14039">
     <groups>
       <group name="Sanity">
         <method signature="LandingPage_TC.verifyWebShopLogo_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" name="verifyWebShopLogo_Test" class="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
         <method signature="LandingPage_TC.verifyWebShopWebPageTitle_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" name="verifyWebShopWebPageTitle_Test" class="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2023-09-21T22:28:32 MDT" name="test chrome" finished-at="2023-09-21T22:28:45 MDT" duration-ms="12976">
+    <test started-at="2023-09-21T23:29:35 MDT" name="test chrome" finished-at="2023-09-21T23:29:49 MDT" duration-ms="14039">
       <class name="com.WebShopDemoProject.TestCases.LandingPage_TC">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T22:28:31 MDT" name="loadConfig" finished-at="2023-09-21T22:28:32 MDT" duration-ms="597" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T23:29:35 MDT" name="loadConfig" finished-at="2023-09-21T23:29:35 MDT" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T22:28:32 MDT" name="setup" finished-at="2023-09-21T22:28:36 MDT" duration-ms="3603" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T23:29:35 MDT" name="setup" finished-at="2023-09-21T23:29:39 MDT" duration-ms="3934" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyWebShopLogo_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T22:28:36 MDT" name="verifyWebShopLogo_Test" finished-at="2023-09-21T22:28:36 MDT" duration-ms="76" status="PASS">
+        <test-method signature="verifyWebShopLogo_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T23:29:39 MDT" name="verifyWebShopLogo_Test" finished-at="2023-09-21T23:29:39 MDT" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWebShopLogo_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T22:28:36 MDT" name="tearDown" finished-at="2023-09-21T22:28:39 MDT" duration-ms="3133" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T23:29:39 MDT" name="tearDown" finished-at="2023-09-21T23:29:42 MDT" duration-ms="3144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T22:28:39 MDT" name="setup" finished-at="2023-09-21T22:28:42 MDT" duration-ms="2766" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T23:29:42 MDT" name="setup" finished-at="2023-09-21T23:29:46 MDT" duration-ms="3517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyWebShopWebPageTitle_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T22:28:42 MDT" name="verifyWebShopWebPageTitle_Test" finished-at="2023-09-21T22:28:42 MDT" duration-ms="7" status="FAIL">
+        <test-method signature="verifyWebShopWebPageTitle_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T23:29:46 MDT" name="verifyWebShopWebPageTitle_Test" finished-at="2023-09-21T23:29:46 MDT" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Deo Web Shop] but found [Demo Web Shop]]]>
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWebShopWebPageTitle_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T22:28:42 MDT" name="tearDown" finished-at="2023-09-21T22:28:45 MDT" duration-ms="3134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@1a451d4d]" started-at="2023-09-21T23:29:46 MDT" name="tearDown" finished-at="2023-09-21T23:29:49 MDT" duration-ms="3132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
