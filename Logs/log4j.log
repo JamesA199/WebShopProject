@@ -7212,3 +7212,166 @@
 2023-09-21 19:51:20 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (236880dea3c9d1f0c906040703f7d7b5)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
 2023-09-21 19:51:20 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
 2023-09-21 19:51:20 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-21 22:13:42 INFO  Log:17 - =====================================searchForProduct_Test TEST START=========================================
+2023-09-21 22:13:42 INFO  Log:28 - Typed text: rrFiction EX, into: [[ChromeDriver: chrome on windows (ea2b03d933c47172b7913d7464eaad49)] -> id: small-searchterms]
+2023-09-21 22:13:43 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (ea2b03d933c47172b7913d7464eaad49)] -> xpath: //input[@value='Search']]
+2023-09-21 22:14:00 INFO  Log:28 - E:\My Projects\Development\automation\eclipse\WebShopDemoProject\src\test\resources\TestData\UserPrdData.xlsx
+2023-09-21 22:14:00 INFO  Log:17 - =====================================loginTest TEST START=========================================
+2023-09-21 22:14:01 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (e131a0b3856b060ce28106860995691a)] -> xpath: //a[@class='ico-login']]
+2023-09-21 22:14:01 INFO  Log:28 - Typed text: godzilla@kaiju.com, into: [[ChromeDriver: chrome on windows (e131a0b3856b060ce28106860995691a)] -> id: Email]
+2023-09-21 22:14:01 INFO  Log:28 - Typed text: Selenium1234, into: [[ChromeDriver: chrome on windows (e131a0b3856b060ce28106860995691a)] -> name: Password]
+2023-09-21 22:14:12 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Log in']'
+2023-09-21 22:14:12 INFO  Log:28 - Logged into Web Shop with user: godzilla@kaiju.com
+2023-09-21 22:14:12 INFO  Log:28 - Found title page: Demo Web Shop
+2023-09-21 22:14:23 INFO  Log:28 - Clicked on Link WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="ico-logout"]'
+2023-09-21 22:14:23 INFO  Log:21 - =====================================loginTest TEST END=========================================
+2023-09-21 22:14:29 INFO  Log:17 - =====================================getWishListlabel_Test TEST START=========================================
+2023-09-21 22:14:30 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (a7937432fa2039565a7a170fd22a3cd5)] -> xpath: //span[normalize-space()='Wishlist']]
+2023-09-21 22:14:33 INFO  Log:21 - =====================================getWishListlabel_Test TEST END=========================================
+2023-09-21 22:14:33 INFO  Log:17 - =====================================wishListValidation_Test TEST START=========================================
+2023-09-21 22:14:33 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (a7937432fa2039565a7a170fd22a3cd5)] -> xpath: //span[normalize-space()='Wishlist']]
+2023-09-21 22:14:36 INFO  Log:21 - =====================================wishListValidation_Test TEST END=========================================
+2023-09-21 22:14:36 INFO  Log:17 - =====================================wishListlabelvalidatecontent_Test TEST START=========================================
+2023-09-21 22:14:37 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (a7937432fa2039565a7a170fd22a3cd5)] -> xpath: //span[normalize-space()='Wishlist']]
+2023-09-21 22:14:40 INFO  Log:28 - Found label: The wishlist is empty!
+2023-09-21 22:14:40 INFO  Log:21 - =====================================wishListlabelvalidatecontent_Test TEST END=========================================
+2023-09-21 22:14:46 INFO  Log:28 - E:\My Projects\Development\automation\eclipse\WebShopDemoProject\src\test\resources\TestData\UserPrdData.xlsx
+2023-09-21 22:14:46 INFO  Log:17 - =====================================CreatePurchaseOrder_Test DDT Record DataRecord1 TEST START=========================================
+2023-09-21 22:14:47 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //a[@class='ico-login']]
+2023-09-21 22:14:47 INFO  Log:28 - Typed text: godzilla@kaiju.com, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: Email]
+2023-09-21 22:14:47 INFO  Log:28 - Typed text: Selenium1234, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: Password]
+2023-09-21 22:14:58 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Log in']'
+2023-09-21 22:14:58 INFO  Log:28 - Logged into Web Shop with user: godzilla@kaiju.com
+2023-09-21 22:14:58 INFO  Log:28 - Typed text: rock, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: small-searchterms]
+2023-09-21 22:14:59 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@value='Search']]
+2023-09-21 22:15:00 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //div[@class='details']/h2[@class='product-title']]
+2023-09-21 22:15:03 INFO  Log:28 - Typed text: 2, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //div[@class='add-to-cart-panel']/input[@type='text']]
+2023-09-21 22:15:04 INFO  Log:28 - Select Combobox item: 2X WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: product_attribute_5_7_1]
+2023-09-21 22:15:04 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: add-to-cart-button-5]
+2023-09-21 22:15:04 INFO  Log:28 - Product has been added to cart confirmation The product has been added to your shopping cart
+2023-09-21 22:15:10 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //span[normalize-space()='Shopping cart']]
+2023-09-21 22:15:10 INFO  Log:28 - Select Combobox item: Canada WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: CountryId]
+2023-09-21 22:15:10 INFO  Log:28 - Select Combobox item: Alberta WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: StateProvinceId]
+2023-09-21 22:15:10 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: estimateshipping]
+2023-09-21 22:15:11 INFO  Log:28 - Typed text: T2V 1X1, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: ZipPostalCode]
+2023-09-21 22:15:11 INFO  Log:28 - Clicked on Checkbox WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: termsofservice]
+2023-09-21 22:15:22 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.name: checkout'
+2023-09-21 22:15:22 INFO  Log:28 - Retrieved step titile: Billing Address
+2023-09-21 22:15:22 INFO  Log:28 - Select Combobox item: New Address WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: billing_address_id]
+2023-09-21 22:15:22 INFO  Log:28 - Typed text: fname, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.FirstName]
+2023-09-21 22:15:22 INFO  Log:28 - Typed text: lname, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.LastName]
+2023-09-21 22:15:22 INFO  Log:28 - Typed text: test1@email.com, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.Email]
+2023-09-21 22:15:22 INFO  Log:28 - Typed text: company, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.Company]
+2023-09-21 22:15:22 INFO  Log:28 - Select Combobox item: Canada WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.CountryId]
+2023-09-21 22:15:23 INFO  Log:28 - Select Combobox item: Alberta WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.StateProvinceId]
+2023-09-21 22:15:23 INFO  Log:28 - Typed text: city1, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.City]
+2023-09-21 22:15:23 INFO  Log:28 - Typed text: address123, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.Address1]
+2023-09-21 22:15:23 INFO  Log:28 - Typed text: t2v1x1, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.ZipPostalCode]
+2023-09-21 22:15:23 INFO  Log:28 - Typed text: 1234567890, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.PhoneNumber]
+2023-09-21 22:15:23 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@onclick='Billing.save()']]
+2023-09-21 22:15:23 INFO  Log:28 - Added shipping address.
+2023-09-21 22:15:25 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //*[@id="shipping-buttons-container"]/input]
+2023-09-21 22:15:26 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: shippingoption_0]
+2023-09-21 22:15:26 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@class='button-1 shipping-method-next-step-button']]
+2023-09-21 22:15:28 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: paymentmethod_2]
+2023-09-21 22:15:28 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //*[@id="payment-method-buttons-container"]/input]
+2023-09-21 22:15:28 INFO  Log:28 - Select Combobox item: Master card WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: CreditCardType]
+2023-09-21 22:15:28 INFO  Log:28 - Typed text: Test Name, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: CardholderName]
+2023-09-21 22:15:28 INFO  Log:28 - Typed text: 4485564059489345, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: CardNumber]
+2023-09-21 22:15:28 INFO  Log:28 - Select Combobox item: 04 WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: ExpireMonth]
+2023-09-21 22:15:28 INFO  Log:28 - Select Combobox item: 2027 WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: ExpireYear]
+2023-09-21 22:15:29 INFO  Log:28 - Typed text: 123, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: CardCode]
+2023-09-21 22:15:29 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //*[@id="payment-info-buttons-container"]/input]
+2023-09-21 22:15:29 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@value='Confirm']]
+2023-09-21 22:15:45 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick="setLocation('/')"]'
+2023-09-21 22:15:45 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //h2[@class='topic-html-content-header']]
+2023-09-21 22:15:45 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //h2[@class='topic-html-content-header']]
+2023-09-21 22:15:45 INFO  Log:28 - Found label title: Welcome to our store
+2023-09-21 22:15:55 INFO  Log:28 - Clicked on Link WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="ico-logout"]'
+2023-09-21 22:15:55 INFO  Log:21 - =====================================CreatePurchaseOrder_Test TEST END=========================================
+2023-09-21 22:15:55 INFO  Log:17 - =====================================CreatePurchaseOrder_Test DDT Record DataRecord2 TEST START=========================================
+2023-09-21 22:15:56 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //a[@class='ico-login']]
+2023-09-21 22:15:56 INFO  Log:28 - Typed text: godzilla@kaiju.com, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: Email]
+2023-09-21 22:15:56 INFO  Log:28 - Typed text: Selenium1234, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: Password]
+2023-09-21 22:16:07 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //input[@value='Log in']'
+2023-09-21 22:16:07 INFO  Log:28 - Logged into Web Shop with user: godzilla@kaiju.com
+2023-09-21 22:16:07 INFO  Log:28 - Typed text: rock, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: small-searchterms]
+2023-09-21 22:16:08 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@value='Search']]
+2023-09-21 22:16:09 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //div[@class='details']/h2[@class='product-title']]
+2023-09-21 22:16:12 INFO  Log:28 - Typed text: 3, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //div[@class='add-to-cart-panel']/input[@type='text']]
+2023-09-21 22:16:12 INFO  Log:28 - Select Combobox item: 3X WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: product_attribute_5_7_1]
+2023-09-21 22:16:12 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: add-to-cart-button-5]
+2023-09-21 22:16:13 INFO  Log:28 - Product has been added to cart confirmation The product has been added to your shopping cart
+2023-09-21 22:16:18 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //span[normalize-space()='Shopping cart']]
+2023-09-21 22:16:18 INFO  Log:28 - Select Combobox item: Canada WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: CountryId]
+2023-09-21 22:16:18 INFO  Log:28 - Select Combobox item: Alberta WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: StateProvinceId]
+2023-09-21 22:16:19 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: estimateshipping]
+2023-09-21 22:16:19 INFO  Log:28 - Typed text: T2V 1X1, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: ZipPostalCode]
+2023-09-21 22:16:19 INFO  Log:28 - Clicked on Checkbox WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: termsofservice]
+2023-09-21 22:16:30 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.name: checkout'
+2023-09-21 22:16:30 INFO  Log:28 - Retrieved step titile: Billing Address
+2023-09-21 22:16:30 INFO  Log:28 - Select Combobox item: New Address WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: billing_address_id]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: fname, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.FirstName]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: lname, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.LastName]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: test1@email.com, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.Email]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: company, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.Company]
+2023-09-21 22:16:31 INFO  Log:28 - Select Combobox item: Canada WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.CountryId]
+2023-09-21 22:16:31 INFO  Log:28 - Select Combobox item: Alberta WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.StateProvinceId]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: city1, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.City]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: address123, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.Address1]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: t2v1x1, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.ZipPostalCode]
+2023-09-21 22:16:31 INFO  Log:28 - Typed text: 1234567890, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: BillingNewAddress.PhoneNumber]
+2023-09-21 22:16:31 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@onclick='Billing.save()']]
+2023-09-21 22:16:31 INFO  Log:28 - Added shipping address.
+2023-09-21 22:16:34 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //*[@id="shipping-buttons-container"]/input]
+2023-09-21 22:16:34 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: shippingoption_1]
+2023-09-21 22:16:34 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@class='button-1 shipping-method-next-step-button']]
+2023-09-21 22:16:36 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: paymentmethod_2]
+2023-09-21 22:16:36 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //*[@id="payment-method-buttons-container"]/input]
+2023-09-21 22:16:36 INFO  Log:28 - Select Combobox item: Visa WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: CreditCardType]
+2023-09-21 22:16:37 INFO  Log:28 - Typed text: Test Name, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: CardholderName]
+2023-09-21 22:16:37 INFO  Log:28 - Typed text: 4485564059489345, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: CardNumber]
+2023-09-21 22:16:37 INFO  Log:28 - Select Combobox item: 04 WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: ExpireMonth]
+2023-09-21 22:16:37 INFO  Log:28 - Select Combobox item: 2027 WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> name: ExpireYear]
+2023-09-21 22:16:37 INFO  Log:28 - Typed text: 123, into: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> id: CardCode]
+2023-09-21 22:16:37 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //*[@id="payment-info-buttons-container"]/input]
+2023-09-21 22:16:37 INFO  Log:28 - Clicked on Button WebElement: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //input[@value='Confirm']]
+2023-09-21 22:16:51 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //input[@onclick="setLocation('/')"]'
+2023-09-21 22:16:51 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //h2[@class='topic-html-content-header']]
+2023-09-21 22:16:51 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (6fb97c60b891613e4c7e3682270819e3)] -> xpath: //h2[@class='topic-html-content-header']]
+2023-09-21 22:16:51 INFO  Log:28 - Found label title: Welcome to our store
+2023-09-21 22:17:02 INFO  Log:28 - Clicked on Link WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="ico-logout"]'
+2023-09-21 22:17:02 INFO  Log:21 - =====================================CreatePurchaseOrder_Test TEST END=========================================
+2023-09-21 22:17:10 INFO  Log:17 - =====================================registerNewAccount_Test TEST START=========================================
+2023-09-21 22:17:11 INFO  Log:28 - Clicked on Link WebElement: [[ChromeDriver: chrome on windows (de4f11dcdd29dd929c964976e1536430)] -> xpath: //a[@class='ico-register']]
+2023-09-21 22:17:14 INFO  Log:28 - Found title page: Demo Web Shop. Register
+2023-09-21 22:17:14 INFO  Log:28 - Clicked on optButton WebElement: [[ChromeDriver: chrome on windows (de4f11dcdd29dd929c964976e1536430)] -> id: gender-male]
+2023-09-21 22:17:14 INFO  Log:28 - Typed text: lfMrXCfL, into: [[ChromeDriver: chrome on windows (de4f11dcdd29dd929c964976e1536430)] -> name: FirstName]
+2023-09-21 22:17:14 INFO  Log:28 - Typed text: PiFauKYU, into: [[ChromeDriver: chrome on windows (de4f11dcdd29dd929c964976e1536430)] -> name: LastName]
+2023-09-21 22:17:14 INFO  Log:28 - Typed text: minniemouse14721@gmail.com, into: [[ChromeDriver: chrome on windows (de4f11dcdd29dd929c964976e1536430)] -> name: Email]
+2023-09-21 22:17:15 INFO  Log:28 - Typed text: Tester1234, into: [[ChromeDriver: chrome on windows (de4f11dcdd29dd929c964976e1536430)] -> name: Password]
+2023-09-21 22:17:15 INFO  Log:28 - Typed text: Tester1234, into: [[ChromeDriver: chrome on windows (de4f11dcdd29dd929c964976e1536430)] -> name: ConfirmPassword]
+2023-09-21 22:17:26 INFO  Log:28 - Clicked on Button WebElement: Proxy element for: DefaultElementLocator 'By.name: register-button'
+2023-09-21 22:17:26 INFO  Log:28 - Pass-Registered new user account.
+2023-09-21 22:17:37 INFO  Log:28 - Clicked on Link WebElement: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class="ico-logout"]'
+2023-09-21 22:17:37 INFO  Log:21 - =====================================registerNewAccount_Test TEST END=========================================
+2023-09-21 22:17:43 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-21 22:17:43 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (c42738902de3264520574ec43614250f)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:17:43 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (c42738902de3264520574ec43614250f)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:17:43 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-21 22:17:43 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-21 22:22:42 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-21 22:22:42 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (7ac2d5d6ab135d5f0ef0482397b9d12e)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:22:42 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (7ac2d5d6ab135d5f0ef0482397b9d12e)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:22:42 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-21 22:22:48 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-21 22:26:59 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-21 22:26:59 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (afd236fd45c4bbf86d9366884d4d6aa0)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:26:59 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (afd236fd45c4bbf86d9366884d4d6aa0)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:26:59 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-21 22:27:05 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================
+2023-09-21 22:28:36 INFO  Log:17 - =====================================verifyWebShopLogo_Test TEST START=========================================
+2023-09-21 22:28:36 INFO  Log:28 - Successfully Found element at: [[ChromeDriver: chrome on windows (c90307e2de15520a98cfca6bd31ef66c)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:28:36 INFO  Log:28 - The element is Displayed: [[ChromeDriver: chrome on windows (c90307e2de15520a98cfca6bd31ef66c)] -> xpath: //img[@alt='Tricentis Demo Web Shop']]
+2023-09-21 22:28:36 INFO  Log:21 - =====================================verifyWebShopLogo_Test TEST END=========================================
+2023-09-21 22:28:42 INFO  Log:17 - =====================================verifyWebShopWebPageTitle_Test TEST START=========================================

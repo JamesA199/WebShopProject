@@ -18,11 +18,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 //import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 //import org.testng.annotations.AfterSuite;
 //import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 //import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -60,7 +62,7 @@ public class BaseClass
 		return driver;
 	}*/
 	@Parameters("browser")	
-	@BeforeClass(groups = {"Smoke", "Sanity", "Regression" })
+	@BeforeMethod(groups = {"Smoke", "Sanity", "Regression" })
 	public void setup(String browser)
 	{
 
@@ -94,7 +96,7 @@ public class BaseClass
 		//driver.get(prop.getProperty("url"));		
 	}
 	
-	@AfterClass(groups = { "Smoke", "Sanity", "Regression" })
+	@AfterMethod(groups = { "Smoke", "Sanity", "Regression" })
 	public void tearDown() throws InterruptedException
 	{ 
 		Thread.sleep(3000);
