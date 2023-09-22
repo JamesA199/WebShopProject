@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-
+import org.apache.log4j.Logger;
 //import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -19,11 +19,13 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 //import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 //import org.testng.annotations.AfterSuite;
 //import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 //import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 //import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -39,6 +41,7 @@ public class BaseClass
 {
 	public static Properties prop;
 	public static WebDriver driver; 
+	public static Logger Logger;
 	
 	//Declare ThreadLocal Driver Parallel testing using Java ThreadLocal Class
 	/*public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
@@ -61,10 +64,9 @@ public class BaseClass
 	public void setup(String browser)
 	{
 
-		//Logger = org.apache.log4j.Logger.getLogger("DemoShop");
-		PropertyConfigurator.configure("Log4j.properties");
+		//loadConfig();
 		
-		DOMConfigurator.configure("log4j.xml");
+		
 		//launchApp(browser);
 		//WebDriverManager.chromedriver().setup();
 		//String browserName = prop.getProperty("browser");
@@ -104,8 +106,12 @@ public class BaseClass
 	@BeforeSuite
 	public void loadConfig()
 	{
-		//ExtentManager.setExtent();
-		//DOMConfigurator.configure("log4j.xml");
+		Logger = org.apache.log4j.Logger.getLogger("WebShop");
+
+		PropertyConfigurator.configure("Log4j.properties");
+
+		
+		DOMConfigurator.configure("log4j.xml");
 
 		try 
 		{
@@ -123,7 +129,7 @@ public class BaseClass
 		}
 	}
 	
-	@AfterSuite
+	//@AfterSuite
 	public void afterSuite() 
 	{
 		//ExtentManager.endReport();

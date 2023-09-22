@@ -3,13 +3,13 @@
 
 <suite name = "Suite1">
 	<listeners>
-		<listener class-name="com.WebShopDemo.Utility.Reporting" />
+		<listener class-name="com.WebShopDemoProject.Utility.Reporting" />
 	</listeners> 
    <test name = "test chrome">
    	<parameter name="browser" value="chrome" />
       <classes>
 
-      <class name="com.WebShopDemo.TestCases.LandingPage_TC"/>
+      <class name="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
       </classes>
    </test>
 

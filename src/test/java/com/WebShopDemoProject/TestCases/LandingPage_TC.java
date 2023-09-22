@@ -18,7 +18,7 @@ public class LandingPage_TC extends BaseClass
 
 	IndexPage indexPage;
 	
-	@Test(groups = {"Smoke"})
+	@Test(groups = {"Sanity"})
 	public void verifyWebShopLogo_Test() 
 	{
 		indexPage = new IndexPage();
@@ -30,7 +30,7 @@ public class LandingPage_TC extends BaseClass
 		
 		
 	}
-	@Test(groups = {"Smoke"})
+	@Test(groups = {"Sanity"})
 	public void verifyWebShopWebPageTitle_Test() 
 	{
 		indexPage = new IndexPage();

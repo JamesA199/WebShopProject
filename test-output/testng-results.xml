@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T23:34:32 MDT" name="Suite" finished-at="2023-09-20T23:34:43 MDT" duration-ms="10666">
+  <suite started-at="2023-09-21T19:51:16 MDT" name="Suite1" finished-at="2023-09-21T19:51:23 MDT" duration-ms="7286">
     <groups>
-      <group name="Smoke">
-        <method signature="LandingPage_TC.verifyWebShopLogo_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" name="verifyWebShopLogo_Test" class="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
-        <method signature="LandingPage_TC.verifyWebShopWebPageTitle_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" name="verifyWebShopWebPageTitle_Test" class="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
-      </group> <!-- Smoke -->
+      <group name="Sanity">
+        <method signature="LandingPage_TC.verifyWebShopLogo_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@52e6fdee]" name="verifyWebShopLogo_Test" class="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
+        <method signature="LandingPage_TC.verifyWebShopWebPageTitle_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@52e6fdee]" name="verifyWebShopWebPageTitle_Test" class="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2023-09-20T23:34:32 MDT" name="Test-Smoke" finished-at="2023-09-20T23:34:43 MDT" duration-ms="10666">
+    <test started-at="2023-09-21T19:51:16 MDT" name="test chrome" finished-at="2023-09-21T19:51:23 MDT" duration-ms="7286">
       <class name="com.WebShopDemoProject.TestCases.LandingPage_TC">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" started-at="2023-09-20T23:34:32 MDT" name="loadConfig" finished-at="2023-09-20T23:34:32 MDT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@52e6fdee]" started-at="2023-09-21T19:51:16 MDT" name="loadConfig" finished-at="2023-09-21T19:51:16 MDT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" started-at="2023-09-20T23:34:32 MDT" name="setup" finished-at="2023-09-20T23:34:39 MDT" duration-ms="7148" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@52e6fdee]" started-at="2023-09-21T19:51:16 MDT" name="setup" finished-at="2023-09-21T19:51:20 MDT" duration-ms="3779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyWebShopLogo_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" started-at="2023-09-20T23:34:39 MDT" name="verifyWebShopLogo_Test" finished-at="2023-09-20T23:34:39 MDT" duration-ms="68" status="PASS">
+        <test-method signature="verifyWebShopLogo_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@52e6fdee]" started-at="2023-09-21T19:51:20 MDT" name="verifyWebShopLogo_Test" finished-at="2023-09-21T19:51:20 MDT" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWebShopLogo_Test -->
-        <test-method signature="verifyWebShopWebPageTitle_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" started-at="2023-09-20T23:34:40 MDT" name="verifyWebShopWebPageTitle_Test" finished-at="2023-09-20T23:34:40 MDT" duration-ms="5" status="FAIL">
+        <test-method signature="verifyWebShopWebPageTitle_Test()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@52e6fdee]" started-at="2023-09-21T19:51:20 MDT" name="verifyWebShopWebPageTitle_Test" finished-at="2023-09-21T19:51:20 MDT" duration-ms="6" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Deo Web Shop] but found [Demo Web Shop]]]>
@@ -75,15 +75,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWebShopWebPageTitle_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" started-at="2023-09-20T23:34:40 MDT" name="tearDown" finished-at="2023-09-20T23:34:43 MDT" duration-ms="3134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@52e6fdee]" started-at="2023-09-21T19:51:20 MDT" name="tearDown" finished-at="2023-09-21T19:51:23 MDT" duration-ms="3140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.WebShopDemoProject.TestCases.LandingPage_TC@6c80d78a]" started-at="2023-09-20T23:34:43 MDT" name="afterSuite" finished-at="2023-09-20T23:34:43 MDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
       </class> <!-- com.WebShopDemoProject.TestCases.LandingPage_TC -->
-    </test> <!-- Test-Smoke -->
-  </suite> <!-- Suite -->
+    </test> <!-- test chrome -->
+  </suite> <!-- Suite1 -->
 </testng-results>

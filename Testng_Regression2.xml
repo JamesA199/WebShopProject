@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name = "Suite1">
+<suite name = "Suite99">
 	<listeners>
-		<listener class-name="com.WebShopDemo.Utility.Reporting"></listener>
+		<listener class-name="com.WebShopDemoProject.Utility.Reporting"></listener>
 	</listeners>
    <test name = "Regression Tests">
    
    	<parameter name="browser" value="chrome" />
   	
       <classes>
-	      <class name="com.WebShopDemo.TestCases.SearchResultPage_TC"/>
-	      <class name="com.WebShopDemo.TestCases.LoginPage_DDTC"/>
-	      <class name="com.WebShopDemo.TestCases.HomePage_TC"/>
-	      <class name="com.WebShopDemo.TestCases.CreatePurchaseOrder_DDTC1"/>
-	      <class name="com.WebShopDemo.TestCases.AccountCreation_TC"/>
-	      <class name="com.WebShopDemo.TestCases.LandingPage_TC"/>
+	      <class name="com.WebShopDemoProject.TestCases.SearchResultPage_TC"/>
+	      <class name="com.WebShopDemoProject.TestCases.LoginPage_DDTC"/>
+	      <class name="com.WebShopDemoProject.TestCases.HomePage_TC"/>
+	      <class name="com.WebShopDemoProject.TestCases.CreatePurchaseOrder_DDTC1"/>
+	      <class name="com.WebShopDemoProject.TestCases.AccountCreation_TC"/>
+	      <class name="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
       </classes>
    </test>
 

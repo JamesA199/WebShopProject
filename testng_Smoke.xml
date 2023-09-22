@@ -6,6 +6,11 @@
 	</listeners> 
   <test thread-count="5" name="Test-Smoke">
     <parameter name="browser" value="chrome" />
+    <groups>
+	<run>
+		<include name="Sanity"></include>
+	</run>
+	</groups> 
     <classes>
       <class name="com.WebShopDemoProject.TestCases.LandingPage_TC"/>
     </classes>

@@ -6,14 +6,18 @@
   </listeners>
   <test thread-count="5" name="Test-Smoke(failed)">
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.WebShopDemoProject.TestCases.LandingPage_TC">
         <methods>
           <include name="verifyWebShopWebPageTitle_Test"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="loadConfig"/>
-          <include name="afterSuite"/>
+          <include name="verifyWebShopLogo_Test"/>
         </methods>
       </class> <!-- com.WebShopDemoProject.TestCases.LandingPage_TC -->
     </classes>
